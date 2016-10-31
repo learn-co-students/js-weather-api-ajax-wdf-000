@@ -1,9 +1,9 @@
 function getFahrenheits(result){
-  // Your code goes here
+  debugger;
 }
 
 function getHours(result){
-  // Your code goes here
+  result
 }
 
 function generateDataSet(labels, data) {
@@ -11,5 +11,5 @@ function generateDataSet(labels, data) {
 }
 
 function makeAjaxRequest(endpoint, success) {
-  // Your code goes here
+  $.ajax({url: endpoint, dataType: 'jsonp', success: success});
 }
