@@ -10,7 +10,7 @@ describe("WeatherChart", function(){
   });
 
   it("returns a list of hours", function(){
-    // Each Item has a property of FCTTIME. 
+    // Each Item has a property of FCTTIME.
     // The hour is stored in FCTTIME's hour property
     // Return a new array of just these values
     expect(getHours(dummyData)).toEqual(['18','19','20','21','22']);
@@ -43,7 +43,7 @@ describe("WeatherChart", function(){
       onSuccess = jasmine.createSpy('onSuccess');
 
       makeAjaxRequest("http://example.com", onSuccess)
-      expect($.ajax).toHaveBeenCalledWith({url: 'http://example.com', dataType: 'jsonp', success: onSuccess})
+      expect($.ajax).toHaveBeenCalledWith({ url : 'http://example.com', datatype : 'jsonp', success : spy on onSuccess })
     })
   })
 })
