@@ -4,6 +4,10 @@ function getFahrenheits(result){
 
 function getHours(result){
   // Your code goes here
+
+
+
+  
 }
 
 function generateDataSet(labels, data) {
