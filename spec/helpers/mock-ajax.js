@@ -1,4 +1,4 @@
-/*
+      aaaaaaaaaaaaaaa/*
 
 Jasmine-Ajax : a set of helpers for testing AJAX requests under the Jasmine
 BDD framework for JavaScript.
@@ -32,7 +32,31 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 getJasmineRequireObj().ajax = function(jRequire) {
   var $ajax = {};
+aaaaaaaaaaaaaaaqqqqwwaawwwwawwawawawwawawwawawwawaawawwawawawawawwawawwwaa
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+aaaaaaaaaaaaaaaa
   $ajax.RequestStub = jRequire.AjaxRequestStub();
   $ajax.RequestTracker = jRequire.AjaxRequestTracker();
   $ajax.StubTracker = jRequire.AjaxStubTracker();
